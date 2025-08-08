@@ -1,5 +1,4 @@
-# GENAI-PERF-AUTOMATION
-
+# GenAI-Perf Automation
 
 ### Overview
 GenAI-Perf is NVIDIA’s open-source benchmarking command-line tool for measuring the throughput and latency of generative AI models. These metrics are critical for evaluating the performance of large language models (LLMs) and other generative AI systems.
@@ -80,7 +79,7 @@ Configuration for pod profiles.
 1.	pod_prefix: Prefix for pod names (e.g., list-profiles-llama-31-8b).
 2.	pattern: Pattern for pod configuration (e.g., l40s-bf16-tp1-pp1-throughput).
 3.	image: Container image to be used in the pod.
-4.	selected_profile_id: ID of the model profile to be used. [user don’t have to change this]
+4.	selected_model_id: ID of the model to be used. [user don’t have to change this]
 
 
  ###### EXAMPLE:
